@@ -1,4 +1,4 @@
-# IAS-project
+# TEST_openstack
 Image Analysis web application
 Backend - FastApi
 Frontend - React
@@ -13,7 +13,7 @@ If for some reason start.sh is not working it could be because a container or vo
 Please run the reset.sh script and once that has finished running you can run start.sh again.
 
 ### Use docker compose
-- Run the following command in the IAS-project folder to start all backend services
+- Run the following command in the TEST_openstack folder to start all backend services
   ```sh
   # If this is the first time running this command it will take some time while the docker images are downloaded.
   # Future uses will be very fast.
@@ -49,15 +49,10 @@ Default:
 - User: 'user'
 - Password: 'password'
 
-
-## License
-
-Apache License 2.0
-
 ---
 ### Explanation about backend
 - The backend was configurated as docker container
-1. mainApi is fastAPI framework backend to provider api to the frontend ( ias-project-react-mainapi)
+1. mainApi is fastAPI framework backend to provider api to the frontend ( TEST_openstack-react-mainapi)
 2. Database docker container ( mongo )
 3. Backend database server container ( mongo-express )
  ```
@@ -87,22 +82,6 @@ The gole is Viv viewer to display every images on frontend by using backend that
     * This is important part in this project. 
 
 *** This project structure is configured as perfectly and as well for image processing and viv viewer.
-### About GCP
-Current(24.10.2022) use GCP for server and link subscription google.
-https://console.cloud.google.com/home/dashboard?project=capable-alcove-265511
-
-To be able to operate on the following sites.
-  - Project Name : LifeAnalytics
-  - Vm instance : Compute Engine / Vm Instances / lifeanalytics-vm
-  - Debian version : 9.2
-  - External IP : 34.72.210.99
-  - account name(ssh key account) : iasgcp (ias-project-react repository)
-  - Reference File : gitaction workflow command - ssh_ci.yml
-  
-  
-### About Web page
- - login page http://ias.lifeanalytics.org/
-
 
 ### About some issues in deploying
 
