@@ -1,0 +1,3 @@
+1.Compactness is measured by the ratio of the object area to the area of its smallest bounding box. The first row is the color image of each object. The second row is the mask image indicating the location of the object in the color image.
+2. Eccentricity measures the elongation, or stretching, of the object, as it would be an ellipse. It is a positive value, where 0 corresponds ot a round object.
+3.

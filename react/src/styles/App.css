@@ -1,0 +1,375 @@
+.tab-button {
+    padding  : 0px !important;
+    border   : 1px solid rgba(0, 0, 0, .125) !important;
+    min-width: 25% !important;
+    width    : 30px !important;
+}
+
+.common-tab-button {
+    padding: 0px !important;
+    border : 1px solid rgba(0, 0, 0, .125) !important;
+    width  : 30px !important;
+}
+
+/* Border */
+.common-border {
+    border: 2px solid rgba(0, 0, 0, .125);
+}
+
+/* Font */
+.font-16 {
+    font-size: 16px !important;
+}
+
+.font-20 {
+    font-size: 20px !important;
+}
+
+/* background */ 
+.cover-gray {
+    opacity: 0.6;
+}
+
+.dialog-close-btn {
+    right   : 20px;
+    top     : 15px;
+    position: absolute;
+    border  : none;
+}
+
+.btn-selected-vessel-color {
+    background-color: #e3e3e3 !important;
+}
+
+.filter-dialog-tab-bg {
+    background-color: rgba(0, 0, 0, .05) !important;
+}
+
+#position-dlg-span span {
+    font-size: 12px !important;
+}
+
+.showOnlyDropDownBtn {
+    width           : 20px;
+    background-color: white;
+    margin          : 0px;
+    padding         : 0px !important;
+    height          : 10px;
+}
+
+.showOnlyDropDownBtn select {
+    color: white !important;
+}
+
+.showOnlyDropDownBtn option {
+    color: black !important;
+}
+
+.showFileName {
+    font-family     : monospace;
+    padding         : 0px !important;
+    /* width        : 40% !important; */
+    border          : none !important;
+    border-bottom   : 1px solid black !important;
+}
+
+.custom-button {
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: rgba(15, 150, 136, .1);
+}
+
+.hole-blue {
+    background-color: rgba(0, 220, 244, 1) !important;
+}
+
+.hole-purple {
+    background-color: rgba(250, 39, 250, 1) !important;
+}
+
+/* progress bar  */
+@keyframes moveToRight {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+.progress {
+    width        : 100%;
+    background   : #ddd;
+    position     : relative;
+    border-radius: 8px !important;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background: rgb(18 105 191);
+    height    : 100%;
+    position  : absolute;
+    left      : 0;
+}
+
+.progress .progress-bar {
+    width        : 40%;
+    animation    : moveToRight 2s infinite linear;
+    border-radius: 8px;
+}
+
+#account-check-tree ol:first-child>li {
+    border: 1px solid gray;
+}
+
+#account-check-tree ol>li>ol>li {
+    border-top: 1px solid gray;
+}
+
+#account-check-tree ol>li>ol>li span.rct-checkbox {
+    visibility: hidden;
+}
+
+#account-check-tree ol ol {
+    padding-left: 0px;
+}
+
+/* added by james wang */
+
+.visual-dialog{
+    /* overflow-y: hidden!important; */
+    /* background-color: #c1c1c1; */
+    max-Height: 800px;
+}
+
+.visual-title {
+    /* background-color: #c1c1c1; */
+}
+
+.visual-toolbar {
+    height: 30px;
+    /* background-color: #c1c1c1; */
+}
+
+.visual-main-body {
+    height: 600px;
+    background-color: white;
+    border: 1px solid #c1c1c1;
+    display: flex;
+}
+
+.visual-sidebar {
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid #c1c1c1;
+    overflow-y: auto;
+}
+
+.visual-analysis-items {
+    height: 75%;
+    border-bottom: 2px solid #c1c1c1;
+    overflow: auto;
+}
+
+.visual-sidebar-filter {
+    height: 25%;
+    position: relative;
+}
+
+.visual-sidebar-filter-box {
+    position: absolute;
+    background-color: #C1C1C1;
+    z-index: 10;
+    right: 0px;
+    top: 0;
+}
+
+.visual-main-panel {
+    width: 75%;
+    height:100%;
+}
+
+.visual-main-panel-screen {
+    min-Height: 50vh;
+    max-Height: 50vh;
+    border-bottom: 2px solid #c1c1c1;
+    display: flex;
+}
+
+.visual-main-panel-screen-sidebar {
+    width: 30%;
+    max-Height: 100%;
+    border-right: 2px solid #c1c1c1;
+    overflow-y: auto;
+}
+
+.visual-mainpanel-imgbox {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.visual-mainpanel-imgbox .selected {
+    border: 3px solid #2bac76;
+}
+
+.visual-mainpanel-imgbox img {
+    width: 95%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.visual-main-panel-screen-content {
+    width: 90%;
+    max-Height: 100%;
+    position: relative;
+}
+
+.Target-root {
+    height: 100%!important;
+    z-index: 2!important;
+}
+
+.visual-amin-panel-table {
+    width: 100%;
+    height: 50%;
+    min-height: 40vh;
+    overflow: auto;
+}
+
+.visual-sidebar-imgBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visual-sidebar-imgBox img {
+    width: 80%;
+    height: 80%;
+}
+
+.visual-footer {
+    height: 40px;
+    /* background-color: #c1c1c1; */
+}
+
+.loading-dialog {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.icon-container {
+    display: flex;
+    max-height: 130px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.vertical-icon-container {
+    display: flex;
+    min-width: 350px;
+    min-height: 150px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.user-custom-canvas {
+    z-index: 2!important;
+    position: absolute!important;
+}
+
+.user-custom-canvas canvas {
+    opacity: 0.3;
+}
+
+.target_drawing_dlg {
+    z-index: 9999!important;
+}
+
+.contextContainer {
+    z-index: 10000!important;
+    position: absolute!important;
+}
+
+.rightClick {
+z-index: 12;
+position: fixed;
+background: rgb(255, 255, 255);
+}
+
+.menuElement {
+color: #222222;
+cursor: pointer;
+padding: 5px 12px;
+}
+
+.menuElement:hover {
+color: #050505;
+background: #9d9e9e;
+}
+
+.method-img {
+    cursor: pointer;
+}
+
+.method-img-selected {
+    cursor: pointer;
+    border: 1px solid black!important;
+}
+
+.ml-method-img-selected {
+    cursor: pointer;
+    border: 2px solid black!important;
+    box-shadow: #555555 4px 4px;
+}
+
+.topInput .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 10px 15px;
+}
+.topInput:nth-of-type(3){
+    margin-top: 15px;
+}
+
+.MuiPaper-root .active svg{
+    color: white;
+}
+
+.report-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.report-content-screen {
+    max-Height: 60%;
+    border-bottom: 2px solid #c1c1c1;
+    display: flex;
+    flex-direction: row;
+}
